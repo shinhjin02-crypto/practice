@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <title>5 Word HangMan</title>
+    <style>
+        body {
+            margin: 10px;
+            height: 95vh;
+            display: flex;
+            justify-content: center;
+            /* 가로 가운데 */
+            align-items: center;
+            /* 세로 가운데 */
+            background-color: #eaf6ff;
+            /* 하늘색 배경 */
+            font-family: "Arial";
+            font-family: 'Dongle', sans-serif;
+            font-size: 30px;
+
+        }
+
+        h1 {
+            font-size: 50px;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        #input {
+            font-size: 40px;
+            letter-spacing: 10px;
+            margin: 15px 0;
+        }
+
+        button {
+            margin: 5px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 15px;
+            background-color: #bde3ff;
+            cursor: pointer;
+            font-family: 'Dongle', sans-serif;
+            font-size: 30px;
+        }
+
+        button:hover {
+            background-color: #a4d4ff;
+        }
+
+        #cinnamoroll {
+            position: fixed;
+            bottom: 750px;
+            /* 화면 아래 */
+            right: 1020px;
+            /* 오른쪽 여백 */
+            width: 180px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>5 Words HangMan</h1><br>
+
+        <div id="input">_ _ _ _ _</div><br>
+        <div id="chance">남은 기회: </div><br>
+        <div id="count">사용한 글자: </div><br>
+        <button id="answer">글자 맞추기</button>
+        <button id="new">새 게임</button>
+
+        <p id="message">알파벳 한 글자씩 맞춰보세요!</p>
+    </div>
+
+    <script>
+        const words = ["light", "dream", "bloom", "kitty", "sunny"];
+
+        let answer = "";
+        let display = [];
+        let used = [];
+        let chance = 6;
+
+        function startGame() {
+            console.log("새 게임 실행");
+
+            let random = Math.floor(Math.random() * words.length);
+            answer = words[random];
+
+            console.log("정답: ", answer)
+
+            display = ["_", "_", "_", "_", "_"];
+            used = [];
+            chance = 6;
+
+            update();
+            document.getElementById("message").textContent =
+                "알파벳 한 글자씩 맞춰보세요!";
+        }
+
+        function guess() {
+
+            if (chance === 0) return;
+
+            let finished = true;
+            for (let i = 0; i < display.length; i++) {
+                if (display[i] === "_") {
+                    finished = false;
+                }
+            }
+            if (finished === true) return;
+
+            let letter = prompt("알파벳 한 글자 입력");
+
+            if (letter == null || letter == "") return;
+
+            letter = letter.toLowerCase();
+
+            // 입력 검증 (여기로 이동!)
+            if (letter.length !== 1) {
+                alert("한 글자만 입력하세요!");
+                return;
+            }
+
+            if (letter < 'a' || letter > 'z') {
+                alert("영문 알파벳만 입력하세요!");
+                return;
+            }
+
+            // 중복 방지
+            for (let i = 0; i < used.length; i++) {
+                if (used[i] === letter) return;
+            }
+
+            used.push(letter);
+
+            let correct = false;
+
+            for (let i = 0; i < answer.length; i++) {
+                if (answer[i] === letter) {
+                    display[i] = letter;
+                    correct = true;
+                }
+            }
+
+            if (correct === false) {
+                chance--;
+            }
+
+            update();
+            checkGame();
+        }
+
+        function update() {
+            document.getElementById("input").textContent = display.join(" ");
+            document.getElementById("chance").textContent =
+                "남은 기회: " + chance;
+            document.getElementById("count").textContent =
+                "사용한 글자: " + used.join(", ");
+        }
+
+        function checkGame() {
+            let win = true;
+
+            for (let i = 0; i < display.length; i++) {
+                if (display[i] === "_") {
+                    win = false;
+                }
+            }
+
+            if (win === true) {
+                document.getElementById("message").textContent =
+                    '축하합니다! 단어는 "' + answer + '" 입니다. 🎉';
+            }
+
+            if (chance === 0) {
+                document.getElementById("message").textContent =
+                    '실패! 단어는 "' + answer + '" 입니다.  😭';
+            }
+        }
+
+        document.getElementById('answer').addEventListener('click', guess);
+        document.getElementById('new').addEventListener('click', startGame);
+
+        startGame();
+    </script>
+
+    <img src="images/cinnamoroll.png" id="cinnamoroll">
+</body>
+
+</html>
