@@ -1,67 +1,122 @@
 <div align="center">
 
-<img 
-  src="https://capsule-render.vercel.app/api?type=soft&height=170&color=0:FFF7AD,50:FFD6A5,100:FFB86C&text=%F0%9F%8C%BC%20%ED%98%9C%EC%A7%84%EC%9D%98%20GitHub%20%F0%9F%8C%BC&fontColor=3A2A1A&fontSize=36&animation=twinkling"
-/>
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Gowun+Dodum&weight=600&size=26&duration=2400&pause=900&color=F6C453&center=true&vCenter=true&repeat=true&width=650&lines=%F0%9F%8C%BC+%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90;%F0%9F%92%A1+%EC%9E%91%EC%9D%80+%EB%94%94%ED%85%8C%EC%9D%BC%EA%B9%8C%EC%A7%80+%EA%B3%A0%EB%AF%BC%ED%95%A9%EB%8B%88%EB%8B%A4"/>
+
+<br/>
+<br/>
+
+# 안녕하세요, 신혜진입니다 👋
+
+사용자 흐름을 고민하며  
+기능을 넘어 **자연스럽게 사용할 수 있는 서비스**를 만들고 싶습니다.
 
 <br/>
 
-<img
-  src="https://readme-typing-svg.demolab.com?font=Gowun+Dodum&weight=600&size=24&duration=2300&pause=900&color=F59E0B&center=true&vCenter=true&repeat=true&width=650&lines=%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90+%F0%9F%92%AB;%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4+%ED%9D%90%EB%A6%84%EC%9D%84+%EA%B3%A0%EB%AF%BC%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90+%F0%9F%8C%99"
-/>
-
-</div>
-
 ---
+
+<br/>
 
 ## 🛠 Tech Stack
 
-### Frontend
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+<br/>
 
-### Backend / DB
-<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black"/>
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,python,fastapi,postgres,docker,git,github,figma,firebase,unity" />
 
-### Tools
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-<img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"/>
+<br/>
+<br/>
 
 ---
 
-## 💡 What I Value
+<br/>
 
-- 사용자 흐름을 고려한 UI/UX 설계를 중요하게 생각합니다.  
-- 기능 구현에서 끝나지 않고, 사용자가 자연스럽게 이용할 수 있는 서비스를 고민합니다.  
-- 팀 프로젝트에서 적극적으로 소통하며 문제를 해결하는 개발자를 지향합니다.  
+## 📌 Featured Projects
+
+<br/>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🚀 PassMate AI</h3>
+      <p align="center">
+        AI 기반 개인 맞춤형 시험 학습 플랫폼
+      </p>
+      <p align="center">
+        <code>Next.js</code>
+        <code>TypeScript</code>
+        <code>FastAPI</code>
+        <code>PostgreSQL</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">📍 HipMap</h3>
+      <p align="center">
+        AR 기반 위치 기록 및 공유 서비스
+      </p>
+      <p align="center">
+        <code>Android Studio</code>
+        <code>Java</code>
+        <code>Unity</code>
+        <code>Firebase</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🎮 Unity 2D Game</h3>
+      <p align="center">
+        Unity 기반 2D 게임 개발 프로젝트
+      </p>
+      <p align="center">
+        <code>Unity</code>
+        <code>C#</code>
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🌱 What I Value</h3>
+      <p align="center">
+        사용자 경험, 협업, 꾸준한 성장
+      </p>
+      <p align="center">
+        <code>UI/UX</code>
+        <code>Communication</code>
+        <code>Learning</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 ---
 
-## 🚀 Projects
+<br/>
 
-### PassMate AI
-AI 기반 개인 맞춤형 시험 학습 플랫폼  
-`Next.js` `TypeScript` `FastAPI` `PostgreSQL`
+## 📊 GitHub Stats
 
-### HipMap
-AR + 지도 기반 장소 기록 SNS  
-`Android Studio` `Java` `Unity` `Firebase` `Google Maps`
+<br/>
 
-### Unity 2D Game
-Unity 기반 2D 게임 개발 프로젝트  
-`Unity` `C#`
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=shinhjin02-crypto&show_icons=true&theme=transparent&hide_border=true&title_color=F6C453&icon_color=F6C453&text_color=ffffff" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=shinhjin02-crypto&layout=compact&theme=transparent&hide_border=true&title_color=F6C453&text_color=ffffff" />
+</p>
+
+<br/>
 
 ---
+
+<br/>
 
 ## 📫 Contact
 
+<br/>
+
 <a href="mailto:shinhjin02@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Gmail-F6C453?style=for-the-badge&logo=gmail&logoColor=ffffff"/>
 </a>
+
+<br/>
+<br/>
 
 </div>
