@@ -1,10 +1,14 @@
 <div align="center">
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=220&section=header&text=Hyejin%20Shin&fontSize=45&fontColor=ffffff"/>
-</p>
 
-# Hi, I'm Hyejin 👋  
-### 기술과 사용자를 연결하는 개발자
+<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:1e3a8a,50:38bdf8,100:0f172a&text=Hyejin%20Shin&fontColor=ffffff&fontSize=45&animation=fadeIn"/>
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=2600&pause=900&color=7DD3FC&center=true&vCenter=true&repeat=true&width=650&lines=%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90;User-centered+Frontend+Developer;Building+AI-powered+Web+Services;Always+learning%2C+always+improving"/>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0f172a,50:38bdf8,100:0f172a"/>
 
 </div>
 
