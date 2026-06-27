@@ -9,6 +9,13 @@
 </div>
 
 ---
+## 🧸 Currently Coding
+
+<p align="center">
+  <img src="./assets/pink-bear-coding.svg" width="560">
+</p>
+
+---
 
 ## 🛠 Tech Stack & Stats
 
@@ -55,13 +62,7 @@
 
 ---
 
-## 🧸 Currently Coding
 
-<p align="center">
-  <img src="./assets/pink-bear-coding.svg" width="560">
-</p>
-
----
 
 ## 📫 Contact
 
