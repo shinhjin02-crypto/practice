@@ -1,4 +1,7 @@
 <div align="center">
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facfe,100:00f2fe&height=220&section=header&text=Hyejin%20Shin&fontSize=45&fontColor=ffffff"/>
+</p>
 
 # Hi, I'm Hyejin 👋  
 ### 기술과 사용자를 연결하는 개발자
