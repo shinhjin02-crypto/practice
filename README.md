@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=180&color=0:1e3a8a,50:38bdf8,100:0f172a&text=Hyejin%20Shin&fontColor=ffffff&fontSize=45&animation=fadeIn"/>
+<img 
+  src="https://capsule-render.vercel.app/api?type=soft&height=170&color=0:FFF7AD,50:FFD6A5,100:FFB86C&text=%F0%9F%8C%BC%20%ED%98%9C%EC%A7%84%EC%9D%98%20GitHub%20%F0%9F%8C%BC&fontColor=3A2A1A&fontSize=36&animation=twinkling"
+/>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=25&duration=2600&pause=900&color=7DD3FC&center=true&vCenter=true&repeat=true&width=650&lines=%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90;User-centered+Frontend+Developer;Building+AI-powered+Web+Services;Always+learning%2C+always+improving"/>
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:0f172a,50:38bdf8,100:0f172a"/>
+<img
+  src="https://readme-typing-svg.demolab.com?font=Gowun+Dodum&weight=600&size=24&duration=2300&pause=900&color=F59E0B&center=true&vCenter=true&repeat=true&width=650&lines=%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A5%BC+%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90+%F0%9F%92%AB;%EC%9E%90%EC%97%B0%EC%8A%A4%EB%9F%AC%EC%9A%B4+%ED%9D%90%EB%A6%84%EC%9D%84+%EA%B3%A0%EB%AF%BC%ED%95%98%EB%8A%94+%EA%B0%9C%EB%B0%9C%EC%9E%90+%F0%9F%8C%99"
+/>
 
 </div>
 
